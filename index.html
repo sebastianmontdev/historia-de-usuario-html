@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio personal</title>
+    <!-- Vinculación del archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Usamos la tipografía Inter como base -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+
+    <!-- 2. Encabezado y Menú de navegación -->
+    <header>
+        <h1>sebastian montaño ramirez</h1>
+        <p>Desarrollador Web Junior | Entusiasta de HTML y CSS</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <!-- Enlace a la página de mascotas -->
+                <li><a href="mascotas.html">Mis Mascotas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección 1: Sobre Mí -->
+        <section id="sobre-mi" class="card">
+            <h2>👋 Sobre Mí</h2>
+            <p>
+                hola soy un desarrolador junior que esta muy feliz de tener la oportunidad de 
+                trabajar en esta carrera,actualmente estoy en un centro de entrenamiento llamado riwi 
+                donde forma talento colombiano.
+                
+                tengo cononocimientos de python y actualmente estoy aprendiendo <strong>html</strong> y <strong>css</strong>
+            </p>
+            <p>
+                Este portafolio es un ejemplo de cómo estoy aplicando los conceptos de etiquetas semánticas como <section> para lograr una web bien estructurada y accesible.
+            </p>
+        </section>
+
+        <!-- Sección 2: Proyectos -->
+        <section id="proyectos" class="card">
+            <h2>🚀 Proyectos</h2>
+            <p>Aquí hay una lista simulada de mis próximos proyectos:</p>
+            <!-- Lista de enlaces simulados -->
+            <ul>
+                <li><a href="#">10 ejercicios de python</a></li>
+                <li><a href="#">ecoride</a></li>
+                <li><a href="#">domicilios</a></li>
+                <li><a href="#">video juego en python</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección 3: Contacto (Formulario Básico) -->
+        <section id="contacto" class="card">
+            <h2>✉️ Contacto</h2>
+            <p>Déjame un mensaje y me pondré en contacto contigo lo antes posible.</p>
+            <!-- Formulario básico -->
+            <form action="#" method="POST" class="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 sebastian. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
