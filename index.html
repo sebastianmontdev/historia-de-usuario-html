@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio personal</title>
-    <!-- Vinculación del archivo CSS -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Usamos la tipografía Inter como base -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
     </style>
 </head>
 <body>
 
-    <!-- 2. Encabezado y Menú de navegación -->
     <header>
         <h1>sebastian montaño ramirez</h1>
         <p>Desarrollador Web Junior | Entusiasta de HTML y CSS</p>
@@ -21,7 +18,6 @@
             <ul>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <!-- Enlace a la página de mascotas -->
                 <li><a href="mascotas.html">Mis Mascotas</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -29,7 +25,6 @@
     </header>
 
     <main>
-        <!-- Sección 1: Sobre Mí -->
         <section id="sobre-mi" class="card">
             <h2>👋 Sobre Mí</h2>
             <p>
@@ -45,25 +40,29 @@
             <button id="btn-cambiar-texto">Cambiar Texto</button>
         </section>
 
-        <!-- Sección 2: Proyectos -->
         <section id="proyectos" class="card">
             <h2>🚀 Proyectos</h2>
             <p>Aquí hay una lista simulada de mis próximos proyectos:</p>
-            <!-- Lista de enlaces simulados -->
             <ul>
-                <li><a href="#">10 ejercicios de python</a></li>
-                <li><a href="#">ecoride</a></li>
-                <li><a href="#">domicilios</a></li>
-                <li><a href="#">video juego en python</a></li>
+                <li><a href="https://github.com/Zain-wave/Green-City">alquiler bici</a></li>
+                <li><a href="https://github.com/sebastianmontdev/crudscope-html-mediapanel.git">crudscope-html-mediapanel</a></li>
+                <li><a href="https://github.com/sebastianmontdev/test/tree/main">historia de usuario</a></li>
+                <li><a href="https://github.com/sebastianmontdev/soluciones-python">10 ejercicios de python</a></li>
+                <li><a href="https://github.com/sebastianmontdev/domicilios">domicilios</a></li>
+                <li><a href="https://github.com/sebastianmontdev/soluciones-crudactivity">crudaactivity</a></li>
+                <li><a href="https://github.com/sebastianmontdev/peopel.git">people activitity</a></li>
+                <li><a href="https://github.com/sebastianmontdev/mortal-turing">video juego en python</a></li>
+                <li><a href="https://github.com/sebastianmontdev/ropa">trabajo individual</a></li>
+                <li><a href="https://github.com/Jaramc/CrudActivity-_Mini-OS">mini os</a></li>
+
+                
             </ul>
             <button id="btn-toggle-proyectos">Mostrar/Ocultar Proyectos</button>
         </section>
 
-        <!-- Sección 3: Contacto (Formulario Básico) -->
         <section id="contacto" class="card">
             <h2>✉️ Contacto</h2>
             <p>Déjame un mensaje y me pondré en contacto contigo lo antes posible.</p>
-            <!-- Formulario básico -->
             <form action="#" method="POST" class="contact-form">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
