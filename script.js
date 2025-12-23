@@ -1,12 +1,12 @@
 window.onload = function() {
-    alert("¡Bienvenido a mi portafolio! 🚀");
+    alert("este mensaje fue hecho con javascript");
 };
 
 const btnCambiarTexto = document.getElementById("btn-cambiar-texto");
 const parrafos = document.querySelectorAll("#sobre-mi p");
 
 btnCambiarTexto.addEventListener("click", () => {
-    parrafos[0].textContent = "Este texto fue cambiado con JavaScript 😎";
+    parrafos[0].textContent = "Este texto fue cambiado con JavaScript ";
 });
 
 const btnToggleProyectos = document.getElementById("btn-toggle-proyectos");
